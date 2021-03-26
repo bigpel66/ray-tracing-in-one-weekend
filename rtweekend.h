@@ -24,11 +24,20 @@ inline double degrees_to_radians(double degrees)
 // Random Generating
 inline double random_double()
 {
-	// Returns a random real in [0, 1)
+	// Returns a random real in [0, 1).
 	static std::random_device rd;
 	static std::mt19937 gen(rd());
 	static std::uniform_real_distribution<double> dist(0.0, 1.0);
 	return (dist(gen));
+}
+
+inline double random_double(double min, double max)
+{
+	// Returns a random real in [min, max).
+	static std::random_device rd;
+	static std::mt19937 gen(rd());
+	static std::uniform_real_distribution<double> dist(0.0, 1.0);
+	return (min + (max - min) * dist(gen));
 }
 
 // Utility
