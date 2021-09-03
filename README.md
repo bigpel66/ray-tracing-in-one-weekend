@@ -6,5 +6,5 @@
 ## Demo
 
 <div style="display:flex" align="center">
-    <img src="images/image.ppm" alt="1" width="600"/>
+    <img src="images/1.png" alt="1" width="600"/>
 </div>
