@@ -1,6 +1,6 @@
 <h1 align="center">Simple Ray Tracer</h1>
 <div align="center">
-    The Project to Implment the Simple Ray Tracer
+    The Project to Implment the Simple Ray Tracer by C++
 </div>
 
 ## Demo
